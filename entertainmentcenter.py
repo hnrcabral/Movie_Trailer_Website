@@ -1,5 +1,8 @@
-import fresh_tomatoes
-import media
+import fresh_tomatoes  # fresh_tomatoes will allow the webpage to be generated
+import media  # bring in our file with class "Movie"
+
+# The following six movies list, in order, the title, description,
+# cover picture and trailer link.
 
 the_departed = media.Movie("The Departed", "South Boston cop Billy Costigan ("
                            "Leonardo DiCaprio) goes under cover to infiltrate "
@@ -94,5 +97,5 @@ interstellar = media.Movie("Interstellar", "In Earth's future, a global crop "
                            "https://www.youtube.com/watch?v=2LqzF5WauAw")
 
 movies = [the_departed, wonder_woman, the_dark_knight, the_dark_knight_rises,
-          wolf_of_wallstreet, interstellar]
-fresh_tomatoes.open_movies_page(movies)
+          wolf_of_wallstreet, interstellar]  # puts all six movies into a list
+fresh_tomatoes.open_movies_page(movies)  # opens the webpage
